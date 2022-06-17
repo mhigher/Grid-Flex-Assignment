@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(3, 3, 62);
+}
+main{
+    width: 60%;
+    display: grid;
+    grid-template-areas:
+    'a a b'
+    'c d d'
+    'c e e';
+    gap: 7px;
+    padding: 7% 15%;
+    
+}
+.a{
+    background-color: rgb(244, 22, 22);
+    grid-area: a;
+    padding: 25% 25% 25% 25%;
+    border-radius: 2px;
+}
+.b{
+    background-color: rgb(254, 172, 7);
+    grid-area: b;
+    padding: 25% 25% 25% 25%;
+    border-radius: 2px;
+}
+.c{
+    background-color: rgb(11, 181, 34);
+    grid-area: c;
+    padding: 25% 25% 4% 25%;
+    border-radius: 2px;
+}
+.d{
+    background-color: rgb(22, 211, 244);
+    grid-area: d;
+    padding: 25% 25% 4% 25%;
+    border-radius: 2px;
+}
+.e{
+    background-color: rgb(22, 211, 244);
+    grid-area: e;
+    padding: 25% 25% 4% 25%;
+    border-radius: 2px;
+}
